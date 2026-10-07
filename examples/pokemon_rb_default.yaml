@@ -1,0 +1,6 @@
+name: Example_Player
+description: Minimal Pokemon Red and Blue example for ap_shapley.
+game: Pokemon Red and Blue
+Pokemon Red and Blue:
+  progression_balancing: 50
+  accessibility: items

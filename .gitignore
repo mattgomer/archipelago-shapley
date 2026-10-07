@@ -1,0 +1,38 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local Archipelago checkout and third-party APWorld packages
+Archipelago/
+external_apworlds/
+*.apworld
+
+# Player configurations may contain names or private settings
+batch_yamls/
+local_yamls/
+*.yaml
+*.yml
+!examples/
+!examples/*.yaml
+!examples/*.yml
+
+# Generated analysis artifacts
+results/
+output/
+*.pkl
+*.pkl.gz
+*.csv
+*.png
+
+# Notebook and editor artifacts
+.ipynb_checkpoints/
+private_notebooks/
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
