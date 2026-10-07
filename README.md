@@ -431,3 +431,8 @@ The suite covers physical-copy allocation, repeated/count families,
 progressive interleavings, acquisition constraints, automatic event cascades,
 precollected inventory, special placement hooks, DSR event classification,
 and the supported-game loader.
+
+## License
+
+This project is available under the [MIT License](LICENSE). It is an
+independent analysis tool and is not an official Archipelago project.
