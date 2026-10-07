@@ -116,6 +116,13 @@ The box plot ranks items by mean `shapley_per_copy`. The box and whiskers show
 how the item's value changes across generated worlds, and the triangle is its
 mean. Outlier markers are hidden by default but still affect every calculation.
 
+### Example output
+
+This 100-world Pokémon Red/Blue analysis shows the default per-copy item
+ranking with outlier worlds displayed:
+
+![Example Pokémon Red and Blue item-importance box plot](docs/assets/pokemon_rb_example_plot.png)
+
 That is the complete single-game workflow. To analyze a folder of player
 YAMLs and create a combined cross-game plot, continue to
 [Run every YAML as a batch](#run-every-yaml-as-a-batch).

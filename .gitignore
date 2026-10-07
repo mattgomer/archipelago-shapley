@@ -26,6 +26,9 @@ output/
 *.pkl.gz
 *.csv
 *.png
+!docs/
+!docs/assets/
+!docs/assets/*.png
 
 # Notebook and editor artifacts
 .ipynb_checkpoints/
